@@ -15,7 +15,7 @@ body {
 }
 .logo {
   padding-left: 44px;
-  font-family: PT Serif;
+  font-family: pt_serifboldf;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -41,9 +41,9 @@ body {
  .image-content {
    width: 40%;
  }
-*{
+/*{
   border: dashed 1px red;
-}
+}*/
 .main-content__title {
   padding-top: 206px;
   width: 30%;
@@ -63,13 +63,12 @@ body {
   left: 0;
   top: 0;
   border-radius: 50%;
+    opacity: .7;
 }
 .logo__circle_color-blue {
   left: 6px;
   top: 25%;
   background: #C8DBFB;
-  opacity: .7;
-
 }
 .logo__circle_color-dark-blue {
   background: #0056EC
