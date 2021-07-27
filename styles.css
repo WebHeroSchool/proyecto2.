@@ -88,17 +88,17 @@ body {
   margin: 0;
   z-index: 5;
   position: relative;
+  padding-bottom: 40px;
 }
 .main-content__description {
   width: 30%;
-  padding: 40px 0;
   font-family: robotomedium;
   font-style: normal;
   font-weight: 500;
   font-size: 22px;
   line-height: 26px;
   color: #000000;
-  margin: 0 0 40px 0;
+  margin: 0 0 59px 0;
 }
 .main-content__button {
   text-decoration: none;
@@ -117,7 +117,6 @@ body {
 }
 .main-content__button:hover{
   box-shadow: 0px 5px 9px #5193F4;
-  transform: translate(0px, -5px);
 }
 .main-content {
   background: url(img/image.svg);
