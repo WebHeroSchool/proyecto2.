@@ -92,7 +92,8 @@ body {
 }
 .main-content__description {
   width: 30%;
-  font-family: robotomedium;
+  height: 52px;
+  font-family: robotoregular;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -159,4 +160,41 @@ body {
 }
 .logo__circle_color-dark-blue {
   background: #0056EC
+}
+.main-point {
+  display: inline-block;
+  justify-content: center;
+}
+.main-point__first {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 8px/2 - 12px);
+  top: 790px;
+  background: #C8DBFB;
+  opacity: 0.7;
+  border-radius: 50%;
+
+}
+.main-point__second {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 8px/2);
+  top: 790px;
+  background: #C8DBFB;
+  opacity: 0.7;
+  border-radius: 50%;
+
+}
+.main-point__third {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 8px/2 + 12px);
+  top: 790px;
+  background: #C8DBFB;
+  opacity: 0.7;
+  border-radius: 50%;
+
 }
