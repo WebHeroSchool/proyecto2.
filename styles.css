@@ -98,12 +98,12 @@ body {
   font-size: 22px;
   line-height: 26px;
   color: #000000;
-  margin: 0 0 59px 0;
+  margin: 0 0 60px 0;
 }
 .main-content__button {
   text-decoration: none;
   width: 24%;
-  padding: 18px 21px;
+  padding: 16px 35px 16px 26px;
   margin: 0;
   font-family: robotoregular;
   font-style: normal;
@@ -122,7 +122,7 @@ body {
   background: url(img/image.svg);
   background-repeat: no-repeat;
   background-position: top right;
-  padding: 78px 0 170px 0;
+  padding: 78px 0 160px 0;
   position: relative;
   background-size: contain;
 }
