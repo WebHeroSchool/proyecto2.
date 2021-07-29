@@ -88,12 +88,11 @@ body {
   margin: 0;
   z-index: 5;
   position: relative;
-  padding-bottom: 40px;
+  padding-bottom: 35px;
 }
 .main-content__description {
   width: 30%;
   height: 52px;
-  font-family: robotoregular;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -103,7 +102,7 @@ body {
 }
 .main-content__button {
   text-decoration: none;
-  width: 18%;
+  width: 24%;
   padding: 18px 21px;
   margin: 0;
   font-family: robotoregular;
@@ -162,7 +161,7 @@ body {
   background: #0056EC
 }
 .main-point {
-  display: inline-block;
+  display: flex;
   justify-content: center;
 }
 .main-point__first {
