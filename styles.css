@@ -1,6 +1,6 @@
-/*{
+*{
   border: dashed 1px red;
-}*/
+}
 
 body {
   font-family: "roboto", sans-serif;
@@ -196,4 +196,63 @@ body {
   opacity: 0.7;
   border-radius: 50%;
 
+}
+@media (max-width:768px) {
+.menu {
+  display: none;
+  }
+.wraper {
+  width: 100%;
+}
+.header {
+  margin: 0;
+  padding: 24px 24px 28px 24px;
+  }
+.main-content {
+  padding: 70% 0 0;
+  width: 75%;
+  margin: auto;
+  }
+.main-content__title {
+  font: bold 30px/40px pt_serifbold;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: auto;
+  }
+
+.background-title {
+  width: 135px;
+  height: 32px;
+  left: calc(50% - 139px/2 - 5px);
+  top: 347px;
+  }
+.background-title2 {
+  width: 234px;
+  height: 33px;
+  left: calc(50% - 234px/2 + 3.5px);
+  top: 305px;
+  }
+.main-content__description {
+  font-family: robotomedium;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  width: 85%;
+  height: 57px;
+  padding-bottom: 25px;
+  margin: auto;
+  }
+.main-content__button {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  width: 74%;
+  padding: 14px 25px 13px 16px;
+  margin-left: 11%;
+  }
+.logo__text {
+opacity: 0;
+ }
 }
