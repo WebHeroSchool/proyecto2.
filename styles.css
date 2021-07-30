@@ -206,7 +206,7 @@ body {
 }
 .header {
   margin: 0;
-  padding: 19px 24px 28px 18px;
+  padding: 24px 24px 28px 24px;
   }
 .main-content {
   padding: 70% 0 0;
@@ -219,7 +219,6 @@ body {
   align-items: center;
   text-align: center;
   width: auto;
-  padding-bottom: 30px;
   }
 
 .background-title {
