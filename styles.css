@@ -423,7 +423,7 @@ body {
     top: 527px;
   }
 }
-@media (min-width:1024px) {
+@media (min-width:1030px) {
   .wraper {
     width: 68%;
   }
