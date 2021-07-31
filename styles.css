@@ -1,5 +1,5 @@
-/*border: dashed 1px red;
-}*/
+*{border: dashed 1px red;
+}*
 
 body {
   font-family: "roboto", sans-serif;
@@ -421,5 +421,30 @@ body {
   }
   .main-point__first, .main-point__second, .main-point__third {
     top: 527px;
+  }
+}
+@media (min-width:1024px) {
+  .wraper {
+    width: 68%;
+  }
+  .header {
+    width: 100%;
+    margin: 51px 0 127px 0;
+  }
+  .main-content {
+    width: 100%;
+    padding-bottom: 59px;
+  }
+  .main-content__title {
+    font-size: 50px;
+    line-height: 66px;
+    width: 53%;
+    padding-bottom: 40px;
+  }
+  .main-content__description {
+    width: 39%;
+  }
+  .main-content__button {
+    width: 77%;
   }
 }
