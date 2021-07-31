@@ -429,11 +429,11 @@ body {
   }
   .header {
     width: 100%;
-    margin: 51px 0 127px 0;
+    margin: 39px 0 127px 5px;
   }
   .main-content {
     width: 100%;
-    padding-bottom: 59px;
+    padding: 14px 0 59px 5px;
   }
   .main-content__title {
     font-size: 50px;
