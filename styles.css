@@ -219,6 +219,7 @@ body {
   align-items: center;
   text-align: center;
   width: auto;
+  padding-bottom: 31px;
   }
 
 .background-title {
@@ -241,7 +242,7 @@ body {
   text-align: center;
   width: 85%;
   height: 57px;
-  padding-bottom: 25px;
+  padding-bottom: 38px;
   margin: auto;
   }
 .main-content__button {
@@ -250,7 +251,7 @@ body {
   line-height: 16px;
   width: 74%;
   padding: 14px 25px 13px 16px;
-  margin-left: 11%;
+  margin-left: 14%;
   }
 .logo__text {
   opacity: 0;
@@ -286,11 +287,11 @@ body {
 }
 .menu__btn > span::before{
   content: '';
-  top: -4px;
+  top: -7px;
 }
 .menu__btn > span::after {
   content: '';
-  top: 4px;
+  top: 7px;
 }
 .menu__box {
   display: block;
