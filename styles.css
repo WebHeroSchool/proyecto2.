@@ -352,7 +352,7 @@ body {
 @media (min-width:768px) {
   .header {
     width: 91%;
-    margin: 40px 5% 110px 5%;
+    margin: 40px 5% 124px 5%;
     padding: 0;
 
   }
@@ -362,6 +362,10 @@ body {
     font-weight: bold;
     font-size: 24px;
     line-height: 32px;
+    padding-left: 40px;
+  }
+  .menu {
+    padding-top: 5px;
   }
   .wraper {
     width: 100%;
@@ -372,6 +376,9 @@ body {
     font-size: 14px;
     line-height: 16px;
   }
+  .menu__item:last-child {
+    margin-right: 6px;
+  }
   .main-content__title {
     font-weight: bold;
     font-size: 50px;
@@ -381,7 +388,7 @@ body {
   .main-content {
     width: 91%;
     margin: auto;
-    padding: 17px 0 59px 0;
+    padding: 17px 0 70px 0;
   }
   .background-title {
     top: 91px;
@@ -402,7 +409,7 @@ body {
     line-height: 21px;
     height: 43px;
     width: 40%;
-    padding-bottom: 41px;
+    padding-bottom: 54px;
     margin: 0;
   }
   .main-content__button {
