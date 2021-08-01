@@ -256,7 +256,7 @@ body {
   line-height: 35px;
   color: #000000;
   text-decoration: none;
-  padding-bottom: 24px;
+  padding-bottom: 25px;
 }
 .menu__item_checkbox:hover {
   background-color: #CFD8DC;
@@ -315,6 +315,19 @@ body {
   .main-content__button {
     width: 77%;
   }
+  .background-title {
+    width: 41%;
+    height: 53px;
+    left: calc(50% - 226px/2 - 351px);
+    top: 91px;
+  }
+  .background-title2 {
+    width: 24%;
+    height: 53px;
+    left: calc(50% - 226px/2 - 351px);
+    top: 158px;
+
+  }
 }
 
 @media (max-width:1024px) {
@@ -352,6 +365,8 @@ body {
     font-size: 50px;
     line-height: 66px;
     width: 53%;
+    padding-bottom: 38px;
+    height: 195px;
   }
   .main-content {
     width: 91%;
@@ -375,7 +390,7 @@ body {
     line-height: 21px;
     height: 43px;
     width: 40%;
-    padding-bottom: 54px;
+    padding-bottom: 55px;
     margin: 0;
   }
   .main-content__button {
