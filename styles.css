@@ -11,10 +11,10 @@ body {
   padding-bottom: 181px;
 }
 .header{
-  padding: 40px 0;
+  padding: 40px 0 40px 4px;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 130px;
+  margin-bottom: 128px;
 }
 .logo {
   padding-left: 44px;
@@ -121,9 +121,10 @@ body {
   background: url(img/image.svg);
   background-repeat: no-repeat;
   background-position: top right;
-  padding: 78px 0 150px 0;
+  padding: 78px 0 150px 4px;
   position: relative;
   background-size: contain;
+  margin-right: 5px;
 }
 .background-title {
   position: absolute;
@@ -305,7 +306,11 @@ body {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
+    padding-top: 5px;
   }
+  .menu__item:last-child {
+    margin-right: 4px;
+}
   .main-content {
     width: 100%;
     padding: 14px 0 70px 0;
