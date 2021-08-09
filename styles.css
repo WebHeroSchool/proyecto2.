@@ -189,7 +189,7 @@
   display: flex;
   align-items: center;
   position: fixed;
-  top: 39px;
+  top: 34px;
   left: 87%;
   width: 25px;
   height: 3px;
@@ -491,6 +491,7 @@
   }
 .wraper {
   width: 100%;
+  padding: 0;
 }
 .header {
   margin: 0;
