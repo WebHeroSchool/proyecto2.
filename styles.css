@@ -358,9 +358,9 @@
 
 @media (max-width:1026px) {
   .header {
-  /*  width: 91%;*/
-    margin: 40px 5% 124px 5%;
+    margin: 40px 0 124px 42px;
     padding: 0;
+    width: 92%;
 
   }
   .logo {
@@ -371,9 +371,6 @@
     line-height: 32px;
     padding-left: 40px;
   }
-  .menu {
-    padding-top: 5px;
-  }
   .wraper {
     width: 100%;
     padding-bottom: 0;
@@ -382,21 +379,25 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
+    padding-top: 5px;
+    margin-right: 26px;
   }
   .menu__item:last-child {
-    margin-right: 6px;
+    margin-right: 1px;
   }
   .main-content__title {
     font-weight: bold;
     font-size: 50px;
     line-height: 66px;
     width: 53%;
-    padding-bottom: 38px;
+    padding: 0 0 37px 8px;
   }
   .main-content {
-    width: 91%;
+    width: 93%;
     margin: auto;
     padding: 17px 0 70px 0;
+    background-size: contain;
+    right: 5px;
   }
   .main-content__description {
     font-family: robotomedium;
@@ -405,15 +406,16 @@
     line-height: 21px;
     height: 43px;
     width: 40%;
-    padding-bottom: 55px;
+    padding: 0 0 52px 8px;
     margin: 0;
   }
   .main-content__button {
-    padding: 14px 25px 13px 16px;
+    padding: 12px 25px 14px 16px;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     width: 22%;
+    margin-left: 8px;
   }
   .main-point__first, .main-point__second, .main-point__third {
     top: 527px;
