@@ -287,10 +287,11 @@
 }
 @media (max-width:1368px) {
   .wraper {
-    width: 68%;
+    width: 69%;
+    padding: 30px 0 40px 1px;
   }
   .header {
-    margin: 0 0 86px 0;
+    margin: 0 0 85px 0;
     padding-left: : 0;
   }
   .menu__item, .menu__item_active {
@@ -299,14 +300,14 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
-    padding-top: 5px;
+    padding-top: 7px;
   }
   .menu__item:last-child {
-    margin-right: 4px;
+    margin-right: 5px;
 }
   .main-content {
     width: 100%;
-    padding: 14px 0 70px 0;
+    padding: 15px 0 70px 0;
   }
   .main-content__title {
     font-size: 50px;
@@ -321,7 +322,7 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 21px;
-    margin-bottom: 43px;
+    margin-bottom: 45px;
   }
   .main-content__button {
     width: 77%;
@@ -330,7 +331,8 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
-    padding: 14px 25px 13px 16px;
+    padding: 13px 25px 13px 16px;
+    margin-left: 2px;
   }
   .main-point__first, .main-point__second, .main-point__third {
     top: 527px;
