@@ -288,11 +288,10 @@
 @media (max-width:1368px) {
   .wraper {
     width: 69%;
-    padding: 30px 0 40px 1px;
   }
   .header {
     margin: 0 0 85px 0;
-    padding-left: : 0;
+    padding: 36px 1px 39px 2px
   }
   .menu__item, .menu__item_active {
     font-family: robotomedium;
@@ -301,13 +300,17 @@
     font-size: 14px;
     line-height: 16px;
     padding-top: 7px;
+    margin-right: 26px;
+  }
+  .menu__item_active {
+    top: 24px;
   }
   .menu__item:last-child {
     margin-right: 5px;
 }
   .main-content {
     width: 100%;
-    padding: 15px 0 70px 0;
+    padding: 17px 0 70px 0;
   }
   .main-content__title {
     font-size: 50px;
