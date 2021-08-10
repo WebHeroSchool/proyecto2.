@@ -189,7 +189,7 @@
   display: flex;
   align-items: center;
   position: fixed;
-  top: 34px;
+  top: 32px;
   left: 87%;
   width: 25px;
   height: 3px;
@@ -355,9 +355,8 @@
 
 @media (max-width:1026px) {
   .header {
-    margin: 40px 0 124px 42px;
+    margin: 40px 38px 124px 42px;
     padding: 0;
-
 
   }
   .logo {
@@ -451,6 +450,7 @@
     z-index: 4;
     background-size: 100%;
     text-align: center;
+    right: 0;
     }
   .main-content__title {
     font-family: pt_serifbold;
@@ -507,7 +507,8 @@
   width: 78%;
   margin: auto;
   z-index: 4;
-  background-size: 100%;
+  background-size: 96%;
+  background-position: center top;
   }
 .main-content__title {
   font: bold 30px/40px pt_serifbold;
