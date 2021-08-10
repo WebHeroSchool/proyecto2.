@@ -286,6 +286,10 @@
     width: 50%;
     font-size: 65px;
   }
+  .main-content__description {
+    font-size: 23px;
+    width: 40%;
+  }
 }
 @media (max-width:1368px) {
   .wraper {
@@ -498,6 +502,16 @@
    .main-point {
      display: none;
    }
+}
+@media (max-width:563px) {
+  .main-content__title{
+    font-size: 39px;
+  }
+  .main-content__description {
+    width: 100%;
+    font-size: 16px;
+    padding-bottom: 16px;
+  }
 }
 @media (max-width:428px) {
 .menu {
