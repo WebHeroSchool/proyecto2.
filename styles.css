@@ -13,7 +13,9 @@
         width: 100%
     }
   }
-
+.gradient {
+    background: linear-gradient(to top, rgb(236 243 255) 0%, rgb(236 243 255) 60%, rgb(255 255 255) 82% 100%);
+}
 .body {
   font-family: "Roboto", sans-serif;
   margin: 0;
