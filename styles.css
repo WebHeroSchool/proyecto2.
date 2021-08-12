@@ -40,7 +40,7 @@
 
 .logo {
   padding-left: 44px;
-  font-family: pt_serifbold;
+  font-family: pt_serifbold, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -61,7 +61,7 @@
 .menu__item,
 .menu__item_active {
   margin-right: 27px;
-  font-family: robotomedium;
+  font-family: robotomedium, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -112,7 +112,7 @@
 }
 
 .main-content__description {
-  font-family: roboto;
+  font-family: roboto, sans-serif;
   width: 30%;
   height: 52px;
   font-style: normal;
@@ -128,7 +128,7 @@
   width: 24%;
   padding: 16px 35px 16px 26px;
   margin: 0;
-  font-family: robotoregular;
+  font-family: robotoregular, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
