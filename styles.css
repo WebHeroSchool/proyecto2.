@@ -337,7 +337,7 @@
 
   .menu__item,
   .menu__item_active {
-    font-family: robotomedium;
+    font-family: robotomedium, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -418,7 +418,7 @@
   }
 
   .logo {
-    font-family: pt_serifbold;
+    font-family: pt_serifbold, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -522,7 +522,7 @@
   .header {
     margin: 0;
     padding: 24px 24px 28px 24px;
-    }
+  }
 
   .main-content {
     padding: 70% 0 0;
@@ -532,7 +532,7 @@
     background-size: 100%;
     text-align: center;
     right: 0;
-    }
+  }
 
   .main-content__title {
     font-family: pt_serifbold;
@@ -543,7 +543,7 @@
     text-align: center;
     width: auto;
     padding-bottom: 31px;
-    }
+  }
 
   .main-content__description {
     font-family: robotomedium;
@@ -556,7 +556,7 @@
     height: 57px;
     padding-bottom: 38px;
     margin: auto;
-    }
+  }
 
   .main-content__button {
     font-weight: 500;
@@ -565,15 +565,15 @@
     width: 74%;
     padding: 14px 25px 13px 16px;
     margin-bottom: 43px;
-    }
+  }
 
   .logo__text {
     opacity: 0;
-   }
+  }
 
   .main-point {
     display: none;
-   }
+  }
 }
 
 @media (max-width: 563px) {
@@ -591,7 +591,7 @@
 @media (max-width: 428px) {
   .menu {
     display: none;
-    }
+  }
 
   .wraper {
     width: 100%;
@@ -610,14 +610,14 @@
     z-index: 4;
     background-size: 100%;
     background-position: center top;
-    }
+  }
 
   .main-content__title {
     font: bold 30px/40px pt_serifbold, sans-serif;
     text-align: center;
     width: auto;
     padding: 0 0 31px 5px;
-    }
+  }
 
   .main-content__description {
     font-family: robotomedium;
@@ -629,7 +629,7 @@
     height: 57px;
     padding: 0 0 18px 5px;
     margin: auto;
-    }
+  }
 
   .main-content__button {
     font-weight: 500;
@@ -638,9 +638,9 @@
     width: 74%;
     padding: 13px 25px 12px 15px;
     margin-left: 2px;
-    }
+  }
 
   .logo__text {
     opacity: 0;
-   }
   }
+}
