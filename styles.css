@@ -135,7 +135,7 @@
   line-height: 21px;
   color: #fff;
   border-radius: 4px;
-  background: #0056EC;
+  background: #0056ec;
   transition: all 0.5s;
 }
 
@@ -348,7 +348,7 @@
 
   .menu__item:last-child {
     margin-right: 5px;
-}
+  }
 
   .main-content {
     width: 100%;
@@ -640,7 +640,7 @@
     margin-left: 2px;
     }
 
-  .logo__text {
+    .logo__text {
     opacity: 0;
    }
   }
