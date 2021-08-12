@@ -512,7 +512,7 @@
 @media (max-width: 768px) {
   .menu {
     display: none;
-    }
+  }
 
   .wraper {
     width: 100%;
@@ -640,7 +640,7 @@
     margin-left: 2px;
     }
 
-    .logo__text {
+  .logo__text {
     opacity: 0;
    }
   }
