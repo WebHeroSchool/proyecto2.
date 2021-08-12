@@ -1,4 +1,4 @@
-/*{border: dashed 1px red;
+/*{ border: dashed 1px red;
 }*/
 
 @keyframes menu-animation {
@@ -6,11 +6,11 @@
     opacity: 0;
   }
   80% {
-   opacity: .4;
+   opacity: 0.4;
   }
 
-   to {
-    opacity: .8;
+  to {
+    opacity: 0.8;
     width: 100%
 }
 }
@@ -148,7 +148,7 @@
   left: 0;
   top: 0;
   border-radius: 50%;
-  opacity: .7;
+  opacity: 0.7;
 }
 .logo__circle_color-blue {
   left: 6px;
@@ -197,9 +197,6 @@
 
 }
 
-#menu__toggle {
-  opacity:0;
-}
 .menu__btn {
   display: flex;
   align-items: center;
@@ -210,6 +207,10 @@
   height: 3px;
   cursor: pointer;
   z-index: 999999;
+}
+
+#menu__toggle {
+  opacity:0;
 }
 
 .menu__btn > span,
@@ -248,6 +249,7 @@
 .menu__box:last-child {
   padding-bottom: 205px;
 }
+
 .menu__item_checkbox {
   display: block;
   font-family: robotomedium;
@@ -542,7 +544,7 @@
     width: 100%;
     padding: 0;
   }
-  .header {
+ .header {
     margin: 0;
     padding: 16px 24px 32px 16px;
       }
