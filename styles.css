@@ -21,7 +21,7 @@
 }
 
 .body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin: 0;
 }
 
@@ -364,7 +364,7 @@
 
   .main-content__description {
     width: 39%;
-    font-family: robotomedium;
+    font-family: robotomedium, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -374,7 +374,7 @@
 
   .main-content__button {
     width: 77%;
-    font-family: robotomedium;
+    font-family: robotomedium, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -465,7 +465,7 @@
   }
 
   .main-content__description {
-    font-family: robotomedium;
+    font-family: robotomedium, sans-serif;
     font-weight: 500;
     font-size: 18px;
     line-height: 21px;
@@ -535,7 +535,7 @@
   }
 
   .main-content__title {
-    font-family: pt_serifbold;
+    font-family: pt_serifbold, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 50px;
@@ -546,7 +546,7 @@
   }
 
   .main-content__description {
-    font-family: robotomedium;
+    font-family: robotomedium, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -620,7 +620,7 @@
   }
 
   .main-content__description {
-    font-family: robotomedium;
+    font-family: robotomedium, sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
