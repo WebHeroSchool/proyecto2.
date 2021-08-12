@@ -102,7 +102,7 @@
 
 .main-content__title {
   width: 37%;
-  font-family: pt_serifbold;
+  font-family: pt_serifbold, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 66px;
@@ -269,7 +269,7 @@
 
 .menu__item_checkbox {
   display: block;
-  font-family: robotomedium;
+  font-family: robotomedium, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 30px;
@@ -613,7 +613,7 @@
     }
 
   .main-content__title {
-    font: bold 30px/40px pt_serifbold sans-serif;
+    font: bold 30px/40px pt_serifbold, sans-serif;
     text-align: center;
     width: auto;
     padding: 0 0 31px 5px;
