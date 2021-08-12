@@ -613,7 +613,7 @@
     }
 
   .main-content__title {
-    font: bold 30px/40px pt_serifbold;
+    font: bold 30px/40px pt_serifbold sans-serif;
     text-align: center;
     width: auto;
     padding: 0 0 31px 5px;
