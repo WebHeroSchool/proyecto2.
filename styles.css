@@ -267,6 +267,9 @@
   padding-bottom: 205px;
 }
 
+.list-for-move {
+  padding-left: 5px;
+}
 .menu__item_checkbox {
   display: block;
   font-family: robotomedium, sans-serif;
